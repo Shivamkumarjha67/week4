@@ -8,7 +8,7 @@ public class Storage<T extends WarehouseItem> {
     ArrayList<T> listItem;
 
     // Storage class constructor
-    Storage() {
+    public Storage() {
         listItem = new ArrayList<>();
     }
 

@@ -3,10 +3,10 @@ package SmartWarehouseManagementSystem;
 // Electronics class definition
 public class Electronics extends WarehouseItem{
     // Attributes
-    private final String brand;
+    public final String brand;
 
     // Electronics class parameterized constructor
-    Electronics(int id, String name, double price, String brand) {
+    public Electronics(int id, String name, double price, String brand) {
         // Passing the values to super class constructor
         super(id, name, price);
         this.brand = brand;

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-// ReverseList class for operating over the list(e.g. Linkedlist and Arraylist)
+// ReverseList class for operating over the list(e.g. Linked list and Arraylist)
 public class ReverseList {
     // Main method
     public static void main(String[] args) {
@@ -52,12 +52,12 @@ public class ReverseList {
     }
 
     // Method for reversing the list
-    public static void reverseList(List<Integer> list) {
+    public static <T> void reverseList(List<T> list) {
         int size = list.size();
 
         // Iterating the half of the list and reversing the corresponding the elements
         for(int i=0; i<size/2; i++) {
-            Integer temp = list.get(i);
+            T temp = list.get(i);
             list.set(i, list.get(size - 1 - i)); // setting element at the given index
             list.set(size - 1 - i, temp);
         }

@@ -1,0 +1,3 @@
+Checked Exception are exceptions that are checked at the compile time.
+If a method throw a checked Exception then the exception must be handled using the try-catch block
+and declare the exception in method signature using the throw keyword.

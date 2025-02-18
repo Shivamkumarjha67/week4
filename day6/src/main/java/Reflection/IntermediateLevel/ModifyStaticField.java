@@ -15,7 +15,7 @@ public class ModifyStaticField {
     public static void main(String[] args) throws Exception {
         // Print the initial value of API_KEY
         Configuration.printApiKey();
-        
+
         // Get the Class object for Configuration
         Class<?> configClass = Configuration.class;
 

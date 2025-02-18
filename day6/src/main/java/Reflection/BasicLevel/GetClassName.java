@@ -41,14 +41,18 @@ public class GetClassName {
 
 // Checker class definition
 class Checker {
+    // Field Declaration
     private int data = 45;
 
+    // Default constructor
     Checker() {}
 
+    // Parameterized constructor
     Checker(int data) {
         this.data = data;
     }
 
+    // Displaying method for data
     void displayData() {
         System.out.println("Data is " + data);
     }
